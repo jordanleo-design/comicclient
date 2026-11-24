@@ -1,0 +1,7 @@
+{
+  "required": false,
+  "package": "dev.comic.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["ScreenEffectRendererMixin"],
+  "injectors": { "defaultRequire": 0 }
+}

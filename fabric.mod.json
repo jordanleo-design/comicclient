@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "comicclient",
+  "version": "${version}",
+  "name": "Comic Client",
+  "description": "All-in-one QoL client: HUD modules, custom title screen, module menu.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": ["comicclient.mixins.json"],
+  "entrypoints": { "client": ["dev.comic.ComicClient"] },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": ">=26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
